@@ -1,0 +1,61 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <title>
+            CSS color reference demo
+        </title>
+        <style>
+            /named color/
+            .named
+            {
+                background-color: red;
+                color:white;
+                padding: 10px;
+            }
+            /hex code/
+            .hex
+            {
+                background-color: #00FF00;
+                color: black;
+                padding: 10px;
+            }
+            /rgb/
+            .rgb
+            {
+                background-color: rgb(122, 133, 200);
+                color: white;
+                padding: 10px;
+            }
+            /rgba(with transparency)/
+            .rgba
+            {
+                background-color: rgba(130, 96, 255,0.6);
+                color: black;
+                padding: 10px;
+            }
+            /hsl/
+            .hsl
+            {
+                background-color: hsl(300, 100%, 70%);
+                color: black;
+                padding: 10px;
+            }
+            /hsla(with transparency)/
+            .hsla
+            {
+                background-color: hsla(180, 100%, 50%, 0.5);
+                color: black;
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>ways to reference colors in css</h2>
+        <div class="named">named color (red)</div>
+        <div class="hex">hex color (#00ff00)</div>
+        <div class="rgb">rgb color (rgb(0,0,255))</div>
+        <div class="rgba">rgba color (rgba(255,165,0,0.6))</div>
+        <div class="hsl">hsl color (hsl(300,100%,70%))</div>
+        <div class="hsla">hsla color (hsla(180,100%,50%,0.5))</div>
+    </body>
+</html>
