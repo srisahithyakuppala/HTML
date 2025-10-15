@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+</head>
+<body>
+<h2>JavaScript Array Object Properties & Methods</h2> <script>
+let fruits = ["Apple", "Banana", "Mango"];
+document.write("Original Array: " + fruits + "<br><br>");
+document.write("length of Array: " + fruits.length + "<br><br>"); fruits.push("Orange");
+document.write("After push('Orange'): " + fruits + "<br><br>"); fruits.pop();
+document.write("After pop(): " + fruits + "<br><br>"); 
+fruits.unshift("Grapes"); 
+document.write("After unshift('Grapes'): " + fruits + "<br><br>");
+fruits.shift(); 
+document.write("After shift(): " + fruits + "<br><br>");
+document.write("Index of 'Banana': " + fruits.indexOf("Banana") + "<br><br>");
+document.write("Includes 'Mango': " + fruits.includes("Mango") + "<br><br>");
+document.write("Slice (1,3): " + fruits.slice(1,3)+ "<br><br>");
+fruits.splice(1,1,"Peach"); // replace Banana with Peach
+document.write("After splice: " + fruits + "<br><br>");
+let moreFruits = ["Kiwi", "Papaya"];
+document.write("Concat: " + fruits.concat(moreFruits) + "<br><br>");
+document.write("join('-'): " + fruits.join(" - ") + "<br><br>");
+document.write("toString(): " + fruits.toString() + "<br><br>");
+document.write("sort(): " + fruits.sort() + "<br><br>");
+document.write("reverse(): " + fruits.reverse()+ "<br>");
+</script>
+</body></html>
